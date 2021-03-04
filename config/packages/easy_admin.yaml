@@ -1,0 +1,11 @@
+easy_admin:
+  entities:
+    - App\Entity\Receta
+
+  site_name: 'Recetas'
+
+  user:
+    display_name: true
+    name_property_path: 'email'
+  design:
+        brand_color: '#1ABC9C'
